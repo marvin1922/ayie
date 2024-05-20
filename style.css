@@ -288,13 +288,24 @@ ul li a:hover {
 
  
 }
+.web{
+  
+position: absolute;
+width: 333px;
+height: 169px;
+margin-top: 200px;
 
-.rec4 i{
+background: lightgoldenrodyellow;
+border-radius: 20px;
+}
+
+.web i{
 color:red
 }
-.rec4 span{
+.web span{
   width: 226px;
 height: 20px;
+flex-direction: column;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -312,19 +323,92 @@ order: 1;
 flex-grow: 0;
 
 }
-.rec4 p{
-  display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 10px;
-isolation: isolate;
-
-position: absolute;
-width: 333px;
-height: 169px;
-background: #FFFFFF;
-border-radius: 10px;
+.web p{
+  width: 283px;
+  height: 120px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  letter-spacing: 0.025em;
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
+.app{
+  position: absolute;
+  width: 333px;
+  height: 169px;
+  left: 950px;
+  top: 520px;
+ 
+  background: lightgoldenrodyellow;
+  border-radius: 20px;
 
+}
+.app i {
+ color:#ff7200
+}
+.app span{
+  width: 226px;
+  height: 20px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  /* identical to box height, or 83% */
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+  
+  .app p{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 10px;
+  isolation: isolate;
+  
+  position: absolute;
+  width: 300px;
+  height: 120px;
+
+}
+.ui{
+  /* Auto layout */
+  position: absolute;
+  width: 333px;
+  height: 100px;
+  margin-top: 400px;
+  
+  background: lightgoldenrodyellow;
+  border-radius: 20px;
+
+}
+.rec3 p{
+  position: absolute;
+width: 820px;
+height: 100px;
+align-content: center;
+
+background: lightgoldenrodyellow;
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
