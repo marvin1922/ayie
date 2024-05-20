@@ -274,7 +274,7 @@ ul li a:hover {
 
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
  
   .main {
     min-height: 100vh;
