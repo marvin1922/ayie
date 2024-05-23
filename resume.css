@@ -260,7 +260,7 @@ ul li a:hover {
 
 body{
   background-image: url("maldives.webp");
-
+  background-attachment: fixed;
 
 }
 
