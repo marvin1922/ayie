@@ -248,7 +248,6 @@ ul li a:hover {
 
 .main-content {
   margin-top: 180px;
-  margin: 180px 50px;
   display: flex;
   flex-direction: row;
   gap: 20px;
