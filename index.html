@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Marvinportfoliio</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Marvinportfoliio-1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   </head>
+  
   <body>
-    <div class="main">
-      <div class="navbar">
-        <div class="burger">
+  
+    
+      <nav class="navbar">
+        <button id="hamburger">
           <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="navbar-link">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
         </div>
   
-        <div class="navbar-link">
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="about me.html">ABOUT</a></li>
-          <li><a href="resume.html">RESUME</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-
+        <div class="mobile-navbar-link" id="menu">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="about me.html">ABOUT</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
         <div class="logo">
-            <h1>Res<span>umes</span></h1>
+          <h1>Res<span>umes</span></h1>
         </div>
-        </div>
-      </div>
+      </nav>
 
       <div class="content">
         <div>
@@ -36,5 +48,6 @@
       </div>
 
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
