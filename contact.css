@@ -390,6 +390,13 @@ flex-grow: 0;
     left: 0;
   
   }
+  .navbar i{
+    font-style:normal;
+      font-variant:normal;
+      line-height: 2;
+    
+      text-rendering: auto;
+  }
 
   .mobile-navbar-link ul{
     display: flex;

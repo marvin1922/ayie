@@ -6,10 +6,18 @@
 
 
 
-.content {
-  margin-top: 200px;
+.content h1{
+  margin-top: 50px;
   display: flex;
   font-size: 3.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content h2{
+  margin-top: 20px;
+  display: flex;
+  font-size: 2.5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -26,6 +34,13 @@
   justify-content: space-between;
   place-items: center;
 }
+.navbar i{
+  font-style:normal;
+    font-variant:normal;
+    line-height: 2;
+  
+    text-rendering: auto;
+}
 .navbar-link{
   display: flex;
   align-items: center;
@@ -36,6 +51,9 @@
   margin-right: 20px;
   color: white;
   font-size: 30px;
+}
+.hamburger{
+  color: red;
 }
 
 .logo h1 span {
@@ -119,8 +137,8 @@ body{
     #hamburger{
       display: none;
     }
+    
   
-
 @media screen and (max-width: 600px) {
 
   .burger{
