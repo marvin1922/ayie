@@ -255,9 +255,8 @@ ul li a:hover {
 }
 
 .main-content {
-  margin-top: 180px;
-  /*margin: 180px 50px;*/
-  display: flex;
+  margin-top: 50px;
+ display: flex;
   flex-direction: row;
   gap: 30px;
  height: 100vh;
@@ -294,6 +293,7 @@ body{
   place-items: center;
   gap: 20px;
   flex-direction: column;
+  height: 100vh;
 }
 
 
