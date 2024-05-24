@@ -497,6 +497,20 @@ flex-grow: 0;
 #hamburger{
   display: block;
 }
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 10px;
+}
+.mobile-navbar-link{
+  display: none;
+    max-height: max-content;
+    padding: 5px 10px;
+  
+    background-color: black;
+    margin-top: 200px;
+    left: 0;
 
 .mobile-navbar-link-show{
 
