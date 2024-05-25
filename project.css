@@ -68,8 +68,10 @@
   }
   .video-container{
     margin-top: 10px;
-      justify-content: center;
+      
       display: flex;
+      flex-direction: column;
+      justify-content: center;
   }
   
   
@@ -95,7 +97,7 @@
     background-image: url("maldives.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
   
   }
   
