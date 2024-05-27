@@ -436,6 +436,32 @@ flex-grow: 0;
   border-radius: 20px;
 
 }
+.blink p1{
+  color: #ff7200;
+  font-size: 20px;
+}
+.blink p{
+  font-size: 20px;
+  color: #ff7200;
+}
+@keyframes blink{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+
+  }
+}
+.blink{
+  animation: blink 1s infinite;
+}
+
+
+
 
 
 
