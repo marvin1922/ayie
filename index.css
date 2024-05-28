@@ -99,7 +99,7 @@ body{
   animation: wave-animation 1s infinite;
 }
 .wave-container{
-  margin-top: 20px;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
