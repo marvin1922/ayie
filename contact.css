@@ -67,49 +67,6 @@ ul li a {
 ul li a:hover {
   color: red;
 }
-.pic {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 289px;
-  top: 200px;
-
-  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 20px;
-}
-.p {
-  position: absolute;
-  width: 224px;
-  height: 36px;
-  margin-left: 5px;
-  padding: 0cap;
-  color: #0b0909;
-}
-.p1 {
-  position: absolute;
-  width: 152px;
-  height: 40px;
-  margin-left: 15px;
-
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 40px;
-  /* identical to box height, or 250% */
-
-  color: rgba(11, 9, 9, 0.5);
-}
-
-.button {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  margin-top: 50px;
-  margin-left: 10px;
-
-  color: blue;
-}
 
 .profile {
   display: flex;
@@ -121,17 +78,6 @@ ul li a:hover {
   top: 300px;
   background:rgb(63, 33, 37);
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-}
-
-.rec1 {
-  margin-top: 220px;
-  margin-left: 30px;
-  position: absolute;
-  width: 350px;
-  height: 350px;
-
-  background: #bbcbe1;
   border-radius: 20px;
 }
 
@@ -213,20 +159,6 @@ ul li a:hover {
   margin-top: 30px;
 }
 
-.do h1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-
-  position: absolute;
-  width: 191px;
-  height: 60px;
-  margin-top: 100px;
-}
-
 .main-content {
   margin-top: 10px;
   
@@ -298,99 +230,12 @@ order: 1;
 flex-grow: 0;
 
 }
-.web p{
-  width: 283px;
-  height: 120px;
-  
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  /* or 143% */
-  letter-spacing: 0.025em;
-  
-  color: #000000;
-  
-  
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
 
-.app{
-  position: absolute;
-  width: 300px;
-  height: 169px;
-  left: 950px;
-  top: 510px;
- 
-  background: lightgoldenrodyellow;
-  border-radius: 20px;
-
-}
 .column-1 .card i {
   font-size: 40px;
  color:#ff7200
 
 }
-.column-1 .card span{
-  width: 226px;
-  height: 20px;
-  
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 20px;
-  /* identical to box height, or 83% */
-  
-  color: #000000;
-  
-  
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-  
-  .app p{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 0px;
-  gap: 10px;
-  isolation: isolate;
-  
-  position: absolute;
-  width: 300px;
-  height: 120px;
-
-}
-.column1 .card h3{
-  width: 226px;
-  height: 20px;
-  
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 20px;
-}
-.ui{
-  /* Auto layout */
-  position: absolute;
-  width: 300px;
-  height: 100px;
-  margin-top: 200px;
-  
-  background: lightgoldenrodyellow;
-  border-radius: 20px;
-
-}
-
-
 
 .mobile-navbar-link{
   display: none;
@@ -435,14 +280,6 @@ flex-grow: 0;
   
 
 @media screen and (max-width: 600px) {
-
-  .burger{
-    color: white;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-  }
 
   .main-content{
     display: flex;
