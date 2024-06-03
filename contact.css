@@ -139,7 +139,8 @@ ul li a:hover {
   color: #0b0909;
 }
 .contact {
-  max-width: 100%;
+  max-width: 800px;
+  max-height: 700px;
   padding: 20px 20px;
   display: flex;
   gap: 20px;
