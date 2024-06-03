@@ -90,6 +90,7 @@ ul li a:hover {
   justify-content: space-between;
   align-items: center;
   background-color: lightgrey;
+  border-radius: 10px;
 }
 .phone p {
   margin-left: 20px;
@@ -110,6 +111,7 @@ ul li a:hover {
   justify-content: space-between;
   align-items: center;
   background-color: lightgrey;
+  border-radius: 10px;
 }
 .email i {
   margin-left: 20px;
@@ -128,6 +130,7 @@ ul li a:hover {
   justify-content: space-between;
   align-items: center;
   background-color: lightgrey;
+  border-radius: 10px;
 }
 .location i {
   margin-left: 20px;
@@ -140,7 +143,6 @@ ul li a:hover {
 }
 .contact {
   max-width: 800px;
-  max-height: 100%;
   padding: 20px 20px;
   display: flex;
   gap: 20px;
