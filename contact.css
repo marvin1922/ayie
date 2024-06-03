@@ -83,14 +83,13 @@ ul li a:hover {
 
 .phone {
   margin-top: 50px;
-  width: 10wh;
   height: 50px;
-  border-radius: 2px;
+  border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: lightgrey;
-  border-radius: 10px;
+
 }
 .phone p {
   margin-left: 20px;
@@ -104,14 +103,12 @@ ul li a:hover {
 
 .email {
   margin-top: 20px;
-  width: 10wh;
   height: 50px;
-  border-radius: 2px;
+  border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: lightgrey;
-  border-radius: 10px;
 }
 .email i {
   margin-left: 20px;
@@ -123,14 +120,13 @@ ul li a:hover {
 }
 .location {
   margin-top: 20px;
-  width: 10wh;
   height: 50px;
-  border-radius: 2px;
+  border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: lightgrey;
-  border-radius: 10px;
+ 
 }
 .location i {
   margin-left: 20px;
